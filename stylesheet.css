@@ -1,0 +1,100 @@
+/* Header Segment */
+.top-header {
+  background-color: darkcyan;
+  display: flex;
+  height: 150px;
+}
+.top-header .page-intro {
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  flex: 1;
+}
+.top-header .filler {
+  /* border: 4px solid red; */
+  flex: 1;
+}
+
+.contents-page {
+  height: 150px;
+  display: flex;
+  background: darkcyan;
+}
+.contents-page .option {
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  flex: 1;
+  /* border: 4px solid red; */
+}
+
+.contents-page .filler {
+  /* border: 4px solid red; */
+  flex: 1;
+}
+.filler-space {
+  background-color:darkcyan;
+}
+
+/* Introduction Segment */
+.introduction {
+  display: flex;
+  padding: 10px;
+}
+.introduction .text-intro {
+  flex: 1;
+  font-size: 20px;
+  /* border: 3px solid red; */
+}
+.introduction .img-intro {
+  flex: 1;
+  /* border: 3px solid red; */
+}
+img {
+  display: block;
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  border: 2px solid yellow;
+}
+
+.text-intro .header {
+  font-size: 30px;
+}
+
+.thicc-gap {
+  height: 100px;
+  border: 3px solid green;
+}
+
+/* Achievements Segment */
+/* I mean, its more than just achievements, but eh */
+
+.personal-achievements {
+  display: flex;
+  border: 3px solid red;
+  height: 300px;
+}
+
+.personal-achievements .subtext {
+  flex: 1;
+  border: 3px solid green; 
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.personal-achievements .header {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  flex: 1;
+  border: 2px solid brown;
+}
